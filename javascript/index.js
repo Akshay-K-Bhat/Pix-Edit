@@ -15,3 +15,13 @@ const animation = setInterval(() => {
     clearInterval(animation);
   }
 }, 50);
+
+const myImage = document.querySelector('#myImage');
+
+myImage.addEventListener('mouseover', () => {
+  myImage.style.transform = 'rotate(360deg)';
+});
+
+myImage.addEventListener('mouseout', () => {
+  myImage.style.transform = 'rotate(0deg)';
+});

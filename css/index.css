@@ -1,6 +1,7 @@
 body{
     background: #F0F0F0;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 #myImage {
     width: 300px;
@@ -15,6 +16,10 @@ body{
   .roll {
     margin-left: 100px;
   }
+
+#myImage:hover {
+ transform:rotate(360deg);
+}
 
 .heroText{
 margin-left: 20px;
