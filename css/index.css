@@ -17,10 +17,6 @@ body{
     margin-left: 100px;
   }
 
-#myImage:hover {
- transform:rotate(360deg);
-}
-
 .heroText{
 margin-left: 20px;
 position: relative;
@@ -50,9 +46,10 @@ font-size: 50px;
   }
 }
 .btn {
-  margin-left: 40%;
+
   margin-top: 0px;
-  
+  display: flex;
+  justify-content: center;
 }
 
 .letsGo{
