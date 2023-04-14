@@ -17,9 +17,6 @@ body{
     margin-left: 100px;
   }
 
-#myImage:hover {
- transform:rotate(360deg);
-}
 
 .heroText{
 margin-left: 20px;
