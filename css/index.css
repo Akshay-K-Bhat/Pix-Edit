@@ -1,0 +1,82 @@
+body{
+    background: #F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+#myImage {
+    width: 300px;
+    height: 300px;
+    transition: transform 0.5s ease-out, margin-left 0.5s ease-out;
+  }
+
+  .rotate {
+    transform: rotate(360deg);
+  }
+  
+  .roll {
+    margin-left: 100px;
+  }
+
+.heroText{
+margin-left: 20px;
+position: relative;
+margin-top: 130px;
+font-size: 50px;
+}
+
+.hero{
+  display: flex;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+  
+/* CSS code */
+.heroText {
+  opacity: 0;
+  animation: fadeIn 3s ease-out forwards;
+  letter-spacing: 1px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.btn {
+  margin-left: 40%;
+  margin-top: 0px;
+  
+}
+
+.letsGo{
+  background: #4E31AA;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  opacity: 0;
+  animation: fadeInText 3s ease-out forwards;
+  text-align: center;
+  display: block;
+  margin-left: 4rem;
+}
+
+.letsGo:hover{
+  background: #191825;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    visibility: hidden;
+
+  }
+  to {
+    opacity: 1;
+    visibility:visible;
+  }
+}
