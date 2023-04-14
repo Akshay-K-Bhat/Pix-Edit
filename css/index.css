@@ -47,9 +47,9 @@ font-size: 50px;
   }
 }
 .btn {
-  margin-left: 40%;
   margin-top: 0px;
-  
+  display : flex;
+  justify-content: center;
 }
 
 .letsGo{
