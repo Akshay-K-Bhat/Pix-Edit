@@ -90,7 +90,7 @@ font-size: 55px;
 
 
 /* Style for smaller screens */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   #myImage {
     width: 200px;
     height:200px;
@@ -101,7 +101,7 @@ font-size: 55px;
     margin-left: 20px;
     position: relative;
     margin-top: 90px;
-    font-size: 35px;
+    font-size: 40px;
     }
 
     .hero{
