@@ -134,13 +134,13 @@ font-size: 55px;
 
 @media only screen and (max-width: 700px) {
   #myImage {
-    width: 120px;
-    height:120px;
+    width: 100px;
+    height:100px;
     transition: transform 0.5s ease-out, margin-left 0.5s ease-out;
   }
 
   .heroText{
-    margin-left: 20px;
+    margin-left: 15px;
     position: relative;
     margin-top: 50px;
     font-size: 20px;
