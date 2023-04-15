@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/editor.css">
+    <title>Pix Edit</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="upload-box">
+            <img class="upload-icon" src="images/upload.png" alt="">
+            <span>Browse File to upload</span>
+        </div>
+        <div class="content">
+            <div class="row sizes">
+                <div class="column width">
+                    <label>Width</label>
+                    <input type="number">
+                </div>
+                <div class="column height">
+                    <label>Height</label>
+                    <input type="number">
+                </div>
+            </div>
+            <div class="row checkboxes">
+                <div class="column ratio">
+                    <input type="checkbox" id="ratio">
+                    <label for="ratio">Lock aspect ratio</label>
+                </div>
+                <div class="column quality">
+                    <input type="checkbox" id="quality">
+                    <label for="quality">Reduce Quality</label>
+                </div>
+            </div>
+            <button class="download-btn">Download Image</button>
+        </div>
+    </div>
+</body>
+</html>
