@@ -91,10 +91,7 @@ font-size: 55px;
 
 /* Style for smaller screens */
 @media only screen and (max-width: 1200px) {
-  body{
-    background: whitesmoke;
-
-  }
+  
   #myImage {
     width: 200px;
     height:200px;
