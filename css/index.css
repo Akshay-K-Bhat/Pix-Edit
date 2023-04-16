@@ -59,9 +59,9 @@ font-size: 55px;
 }
 
 .btn {
-  margin-top: 0px;
   display: flex;
   justify-content: center;
+  padding: 25px;
 }
 
 .letsGo{
