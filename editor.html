@@ -7,15 +7,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="stylesheet" href="./css/editor.css">
     <title>Pix Edit</title>
 </head>
 <body>
+   <div class="container">
+    <h2>Pix Edit</h2>
     <div class="wrapper">
-        <div class="upload-box">
-            <img class="upload-icon" src="images/upload.png" alt="">
-            <span>Browse File to upload</span>
+        <div class="container-2">
+            <div class="editor-panel">
+                <div class="filter">
+                    <label  class="title">Filter</label>
+                    <div class="option">
+                        <button class="active">Brightness</button>
+                        <button>Saturation</button>
+                        <button>Inversion</button>
+                        <button>Grayscale</button>
+                    </div>
+                    <div class="slider">
+                        <div class="filter-info">
+                            <p class="name">Brightness</p>
+                            <p class="value">100%</p>
+                        </div>
+                        <input type="range" value="100" min="0" max="200" name="" id="">
+                    </div>
+                </div>
+                <div class="rotate">
+                    <label class="title" for="">Rotate & Flip</label>
+                    <div class="option">
+                        <button><i class="fa-solid fa-rotate-left"></i></button>
+                        <button><i class="fa-solid fa-rotate-right"></i></button>
+                        <button><i class="bx bx-reflect-vertical"></i></button>
+                        <button><i class="bx bx-reflect-horizontal"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview-img">
+                <img src="./images/image.png" alt="preview-image">
+            </div>
+
         </div>
+       
         <div class="content">
             <div class="row sizes">
                 <div class="column width">
@@ -37,8 +72,15 @@
                     <label for="quality">Reduce Quality</label>
                 </div>
             </div>
-            <button class="download-btn">Download Image</button>
         </div>
     </div>
+    <div class="controls">
+        <button class="reset-filter">Reset Filters</button>
+        <div class="row">
+            <button class="choose-img">Choose Image</button>
+            <button class="save-img">Save Image</button>
+        </div>
+    </div>
+   </div>
 </body>
 </html>
